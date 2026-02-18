@@ -12,3 +12,15 @@ projects:
       enabled: true
       when_modified:
         - "**/*.tf"
+  - dir: project-c
+    workspace: default
+    autoplan:
+      enabled: true
+      when_modified:
+        - "**/*.tf"
+  - dir: project-d
+    workspace: default
+    autoplan:
+      enabled: true
+      when_modified:
+        - "**/*.tf"

@@ -1,0 +1,14 @@
+version: 3
+projects:
+  - dir: project-a
+    workspace: default
+    autoplan:
+      enabled: true
+      when_modified:
+        - "**/*.tf"
+  - dir: project-b
+    workspace: default
+    autoplan:
+      enabled: true
+      when_modified:
+        - "**/*.tf"

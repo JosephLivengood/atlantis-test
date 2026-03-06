@@ -5,3 +5,6 @@ data "external" "slow_plan" {
 output "result" {
   value = data.external.slow_plan.result
 }
+
+resource "null_resource" "project_a_resource" {
+}
